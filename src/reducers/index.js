@@ -1,5 +1,5 @@
 import { combineReducers } from 'redux';
-import authenticationReducer froom './authentication';
+import authenticationReducer from './authentication';
 
 const rootReducer = combineReducers({
   authenticated: authenticationReducer
